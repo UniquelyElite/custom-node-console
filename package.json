@@ -1,0 +1,21 @@
+{
+  "name": "custom-node-console",
+  "version": "1.0.0",
+  "description": "NodeJS Console Improved With Colours And Custom Logging Types",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "colors",
+    "ansi",
+    "terminal",
+    "node"
+  ],
+  "license": "MIT",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "author": "Uniquelyelite (https://static.uniquelyelite.com/)"
+}
