@@ -1,5 +1,5 @@
 {
-  "name": "custom-node-console",
+  "name": "@uniquelyelite/custom-node-console",
   "version": "1.0.0",
   "description": "NodeJS Console Improved With Colours And Custom Logging Types",
   "main": "lib/index.js",
