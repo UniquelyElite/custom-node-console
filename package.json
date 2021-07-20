@@ -17,5 +17,13 @@
     "example": "examples",
     "lib": "lib"
   },
-  "author": "Uniquelyelite (https://static.uniquelyelite.com/)"
+  "author": "Uniquelyelite (https://static.uniquelyelite.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniquelyElite/custom-node-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UniquelyElite/custom-node-console/issues"
+  },
+  "homepage": "https://github.com/UniquelyElite/custom-node-console#readme"
 }
