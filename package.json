@@ -1,6 +1,6 @@
 {
   "name": "custom-node-console",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NodeJS Console Improved With Colours And Custom Logging Types",
   "main": "lib/index.js",
   "scripts": {
