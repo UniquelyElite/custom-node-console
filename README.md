@@ -2,13 +2,17 @@
 
 ## Installation
 
-    npm install custom-node-console
+```bash
+npm install custom-node-console
+```
 
 ## Usage
 
 Include this as soon as possible in your program:
 
-    const nodeConsole = require('custom-node-console');
+```js
+const nodeConsole = require('custom-node-console');
+```
 
 ###  Logging
 
@@ -18,13 +22,21 @@ Types include:
 * note
 * rainbow
 * warn
-*  error
+* error
 * fatal
 
 To use them, simply write:
 
-    console.<type>('I am logging!')
-    
+```js
+console.<type>('I am logging!')
+```
+
+Almost all the types can be used without displaying the time:
+
+```js
+console.<type>('plain', 'I am logging!')
+```
+
 ### Colours
 
 Supported colours include:
@@ -42,21 +54,25 @@ Supported colours include:
 
 To modify what colour a type displays, simply add:
 
-    nodeConsole.set({
-        '<type>': '<colour>',
-        '<type>': '<colour>',
-        ....
-    })
+```js
+nodeConsole.set({
+    '<type>': '<colour>',
+    '<type>': '<colour>',
+    ....
+})
+```
 
 ### Custom Rainbow
 
 TO modify the colours of the rainbow option, simply add:
 
-    nodeConsole.set({
-        'rainbow': [
-            '<colour>',
-            '<colour>',
-            ....
-        ],
+```js
+nodeConsole.set({
+    'rainbow': [
+        '<colour>',
+        '<colour>',
         ....
-    })
+    ],
+    ....
+})
+```
