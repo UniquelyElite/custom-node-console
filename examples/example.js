@@ -29,12 +29,22 @@ nodeConsole.set({
 
 
 console.bold('I am bold');
+
 console.log('I am a log');
 console.log('plain', 'I am a "normal" log');
+
 console.rainbow('I am a log, except rainbow');
 console.rainbow('plain', 'I am a "normal" log, except rainbow');
+
 console.note('I am a note');
+console.note('plain', 'I am a "normal" note');
+
 console.error('I am error');
+console.error('plain', 'I am a "normal" error');
+
 console.warn('I am warning');
+console.warn('plain', 'I am a "normal" warning');
+
 //Fatal will exit the script after logging
-console.fatal('I am fatal');
+console.fatal('I am a fatal error');
+console.fatal('plain', 'I am a "normal" fatal error');
